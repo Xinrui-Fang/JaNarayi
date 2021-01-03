@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JaNarayi Player</title>
+    <link rel="stylesheet" href= "{{ url_for('static', filename = 'styles.css') }}">
+    
+
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1 id="title"></h1>
+            <img src="https://i.pinimg.com/originals/b4/75/00/b4750046d94fed05d00dd849aa5f0ab7.jpg">
+            <input id="range" class="level" type="range" value="0" min="0">
+            <div class="buttons">
+                <button id="pre"><img src="{{ url_for('static', filename = 'rewind.png', _t=val1) }}"></button>
+                <button id="play"><img id="play_img" src="{{ url_for('static', filename = 'play.png', _t=val1) }}"></button>
+                <button id="next"><img src="{{ url_for('static', filename = 'fast-forward.png', _t=val1) }}"></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type=text/javascript>
+        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    </script>
+    <script type="text/javascript">
+        document.write('<script type="text/javascript"  src="./static/main.js?v='+Math.random()+'"><\/script>');
+    </script>
+    <!--<script src="{{ url_for('static', filename = 'main.js' , _t=val1) }}"></script>-->
+    
+</body>
+</html>
