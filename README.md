@@ -18,3 +18,25 @@ As a international student studying in Japan, I am struggling to search Japanese
 - [x] Python
 - [x] Flask
 - [x] Heroku Deployment
+
+## Pip Requirements
+* astroid==2.4.2
+* click==7.1.2
+* colorama==0.4.4
+* Flask==1.1.2
+* gunicorn==20.0.4
+* isort==5.7.0
+* itsdangerous==1.1.0
+* Jinja2==2.11.2
+* lazy-object-proxy==1.4.3
+* MarkupSafe==1.1.1
+* mccabe==0.6.1
+* pydub==0.24.1
+* pylint==2.6.0
+* six==1.15.0
+* SpeechRecognition==3.8.1
+* toml==0.10.2
+* touch==2020.12.3
+* values==2020.12.3
+* Werkzeug==1.0.1
+* wrapt==1.12.1
