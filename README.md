@@ -12,3 +12,9 @@ As a international student studying in Japan, I am struggling to search Japanese
 - [x] CSS
 - [x] Javascript
 - [x] jQuery (support AJAX)
+- [x] AJAX
+
+### Back-End Technology
+- [x] Python
+- [x] Flask
+- [x] Heroku Deployment
