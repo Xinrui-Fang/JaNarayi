@@ -6,5 +6,9 @@ As a international student studying in Japan, I am struggling to search Japanese
 - [ ] 不勾选
 - [x] 勾选
 
-## Technology
+## Technologies
 ### Front-End Technology
+- [x] HTML
+- [x] CSS
+- [x] Javascript
+- [x] jQuery (support AJAX)
